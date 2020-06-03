@@ -1,3 +1,5 @@
-print("Hello Wrold, I am ready with R")
-print('get to know me ? ')
-print("wait for it")
+data1=read.table("C:\\Users\\Ajeet Kumar\\Documents\\crime.csv",fill=TRUE)
+str(data1)
+summary(data1)
+data2=read.csv("C:\\Users\\Ajeet Kumar\\Documents\\hw1_data.csv")
+summary(data2)
